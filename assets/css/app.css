@@ -236,3 +236,9 @@ ul.sidebar .sidebar-list a:hover {
 .sidebar-footer div a {
   color: #fff;
 }
+
+.logo {
+  max-width: 72px;
+  max-height: 28px;
+  margin-bottom: 0px;
+}
