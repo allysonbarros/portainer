@@ -206,3 +206,33 @@ input[type="radio"] {
 .pagination-controls {
   margin-left: 10px;
 }
+
+/* SUAP Theme - Custom Styles */
+#sidebar-wrapper {
+  background-color: #292929;
+}
+
+ul.sidebar .sidebar-title {
+  color: #888;
+}
+
+ul.sidebar .sidebar-list a {
+  color: #fff;
+}
+
+#page-wrapper:not(.open) ul.sidebar .sidebar-title.separator, .sidebar-footer, ul.sidebar .sidebar-main a {
+  background: #222;
+}
+
+ul.sidebar .sidebar-list a:hover, .sidebar-footer div a:hover {
+  background: #222;
+  color: #75ad0a;
+}
+
+ul.sidebar .sidebar-list a:hover {
+    border-left-color: #111;
+}
+
+.sidebar-footer div a {
+  color: #fff;
+}
